@@ -11,7 +11,7 @@ public class RabbitConstans {
     /**
      *  测试队列
      */
-    public static final String TEST_QUEUE="test.queue";
+    public static final String WORKORDER_EMP_QUEUE="test.queue";
 
 
 

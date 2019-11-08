@@ -2,13 +2,13 @@ spring:
    application:
       name: spirng-boot-rabbitmq-receice
    rabbitmq:
-      host: 120.77.214.1
+      host: 10.1.2.201
       port: 5672
       username: admin
       password: admin
 server:
    port: 8081
-test:
-   mq:
-      exchange: testExchange
-      routingKey: testKey
+mq:
+   emp:
+      exchange: eebo.iam.change_emp
+      routingKey: eebo.iam.addOrUpdate_emp_key
